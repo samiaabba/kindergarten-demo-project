@@ -1,0 +1,4 @@
+
+thumbnailworker/.env
+thumbnailworker/.venv/
+thumbnailworker/__pycache__/

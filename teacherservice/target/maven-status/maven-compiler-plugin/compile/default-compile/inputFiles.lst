@@ -1,0 +1,7 @@
+/home/samia/Kindergarten-Demo-Project/teacherservice/src/main/java/com/kindergarten/teacherservice/logging/RequestLoggingFilter.java
+/home/samia/Kindergarten-Demo-Project/teacherservice/src/main/java/com/kindergarten/teacherservice/repository/TeacherRepository.java
+/home/samia/Kindergarten-Demo-Project/teacherservice/src/main/java/com/kindergarten/teacherservice/logging/JsonLogEncoder.java
+/home/samia/Kindergarten-Demo-Project/teacherservice/src/main/java/com/kindergarten/teacherservice/service/TeacherService.java
+/home/samia/Kindergarten-Demo-Project/teacherservice/src/main/java/com/kindergarten/teacherservice/TeacherServiceApplication.java
+/home/samia/Kindergarten-Demo-Project/teacherservice/src/main/java/com/kindergarten/teacherservice/controller/TeacherController.java
+/home/samia/Kindergarten-Demo-Project/teacherservice/src/main/java/com/kindergarten/teacherservice/model/Teacher.java
