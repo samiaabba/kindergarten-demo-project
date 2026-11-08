@@ -53,3 +53,16 @@ Desktop.ini
 *.swp
 *.swo
 *~
+# Private environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated files
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+target/
+build/
+dist/
