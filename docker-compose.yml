@@ -122,8 +122,19 @@ services:
 
   frontend:
     build: ./frontend
+  nginx:
+    image: nginx:1.28-alpine
     ports:
-      - "3000:80"
+      - "8080:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - frontend
+      - studentservice
+      - teacherservice
+      - employeeservice
+      - profileservice
+    restart: unless-stopped
 
 volumes:
   mongo-data:
